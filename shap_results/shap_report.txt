@@ -1,0 +1,24 @@
+TELCO CUSTOMER CHURN - SHAP REPORT
+
+Model: Logistic Regression
+Explainer: LinearExplainer
+Background observations: 100
+Explained observations: 500
+
+TOP 15 FEATURES
+                                    Feature  Mean_Absolute_SHAP
+                            numeric__tenure            1.016890
+                    numeric__MonthlyCharges            0.589016
+                      numeric__TotalCharges            0.404878
+   categorical__InternetService_Fiber optic            0.357878
+       categorical__Contract_Month-to-month            0.325134
+           categorical__InternetService_DSL            0.278440
+             categorical__Contract_Two year            0.256667
+           categorical__StreamingMovies_Yes            0.136768
+               categorical__StreamingTV_Yes            0.129748
+           categorical__PaperlessBilling_No            0.116459
+categorical__PaymentMethod_Electronic check            0.113793
+              categorical__MultipleLines_No            0.104974
+             categorical__OnlineSecurity_No            0.102281
+            categorical__StreamingMovies_No            0.088934
+                categorical__TechSupport_No            0.085222

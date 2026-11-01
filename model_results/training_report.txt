@@ -1,0 +1,15 @@
+TELCO CUSTOMER CHURN - TRAINING REPORT
+
+Best model: Logistic Regression
+
+              Model  Accuracy  Precision   Recall       F1  ROC_AUC  Average_Precision
+Logistic Regression  0.754215   0.524123 0.799331 0.633113 0.848379           0.666560
+      Random Forest  0.768412   0.548718 0.715719 0.621190 0.839748           0.637477
+      Decision Tree  0.716060   0.475751 0.688963 0.562842 0.782304           0.581559
+
+FINAL TEST METRICS
+{'Model': 'Logistic Regression', 'Accuracy': 0.7381121362668559, 'Precision': 0.504302925989673, 'Recall': 0.7834224598930482, 'F1': 0.6136125654450262, 'ROC_AUC': 0.841501976284585, 'Average_Precision': 0.6325016828753636}
+
+CONFUSION MATRIX
+[[747 288]
+ [ 81 293]]

@@ -1,0 +1,2 @@
+Selected threshold: 0.65
+Selection criterion: Best validation F1-score
